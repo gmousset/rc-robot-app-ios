@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DFA46A7891100C8991D2973 /* Pods_rc_robot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B334F1573046748EBAC7E81F /* Pods_rc_robot.framework */; };
+		6B4935951D51FBD1004C73B9 /* GMThrottle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4935941D51FBD0004C73B9 /* GMThrottle.swift */; };
+		6B4935981D523990004C73B9 /* RCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4935971D523990004C73B9 /* RCViewModel.swift */; };
+		6B49359C1D523ACA004C73B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B49359A1D523ACA004C73B9 /* Main.storyboard */; };
+		6B49359F1D523ADB004C73B9 /* RCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B49359E1D523ADB004C73B9 /* RCViewController.swift */; };
+		6B4935A11D523B8C004C73B9 /* Robot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4935A01D523B8C004C73B9 /* Robot.swift */; };
+		6B8D19DB1D537F4F00904C58 /* GMThrottle2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8D19DA1D537F4F00904C58 /* GMThrottle2.swift */; };
+		6B8D19DD1D53CC6F00904C58 /* GMLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8D19DC1D53CC6F00904C58 /* GMLayer.swift */; };
+		6B8D19DF1D53CD9300904C58 /* LayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8D19DE1D53CD9300904C58 /* LayerViewController.swift */; };
+		6BB4D8D21D43A97E0057A5B0 /* TcpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB4D8D11D43A97E0057A5B0 /* TcpClient.swift */; };
+		6BB4D8D41D43BDDE0057A5B0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BB4D8D31D43BDDE0057A5B0 /* Security.framework */; };
+		6BB4D8D61D43CC3C0057A5B0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BB4D8D51D43CC3C0057A5B0 /* CFNetwork.framework */; };
+		6BB7A7A61D4397290080B057 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB7A7A51D4397290080B057 /* AppDelegate.swift */; };
+		6BB7A7AD1D4397290080B057 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BB7A7AC1D4397290080B057 /* Assets.xcassets */; };
+		6BB7A7B01D4397290080B057 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BB7A7AE1D4397290080B057 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05B3A3308FE1883C283702A6 /* Pods-rc-robot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rc-robot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rc-robot/Pods-rc-robot.debug.xcconfig"; sourceTree = "<group>"; };
+		4F89D4444F15F2ED6BC5CBE4 /* Pods-rc-robot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rc-robot.release.xcconfig"; path = "Pods/Target Support Files/Pods-rc-robot/Pods-rc-robot.release.xcconfig"; sourceTree = "<group>"; };
+		6B4935941D51FBD0004C73B9 /* GMThrottle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMThrottle.swift; sourceTree = "<group>"; };
+		6B4935971D523990004C73B9 /* RCViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCViewModel.swift; sourceTree = "<group>"; };
+		6B49359B1D523ACA004C73B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B49359E1D523ADB004C73B9 /* RCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCViewController.swift; sourceTree = "<group>"; };
+		6B4935A01D523B8C004C73B9 /* Robot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Robot.swift; sourceTree = "<group>"; };
+		6B8D19DA1D537F4F00904C58 /* GMThrottle2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMThrottle2.swift; sourceTree = "<group>"; };
+		6B8D19DC1D53CC6F00904C58 /* GMLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMLayer.swift; sourceTree = "<group>"; };
+		6B8D19DE1D53CD9300904C58 /* LayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayerViewController.swift; sourceTree = "<group>"; };
+		6BB4D8D11D43A97E0057A5B0 /* TcpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TcpClient.swift; sourceTree = "<group>"; };
+		6BB4D8D31D43BDDE0057A5B0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6BB4D8D51D43CC3C0057A5B0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		6BB7A7A21D4397290080B057 /* rc-robot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rc-robot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB7A7A51D4397290080B057 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BB7A7AC1D4397290080B057 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BB7A7AF1D4397290080B057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BB7A7B11D4397290080B057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B334F1573046748EBAC7E81F /* Pods_rc_robot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rc_robot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BB7A79F1D4397290080B057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB4D8D61D43CC3C0057A5B0 /* CFNetwork.framework in Frameworks */,
+				6BB4D8D41D43BDDE0057A5B0 /* Security.framework in Frameworks */,
+				0DFA46A7891100C8991D2973 /* Pods_rc_robot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B4935931D51FAB2004C73B9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6B4935941D51FBD0004C73B9 /* GMThrottle.swift */,
+				6B8D19DA1D537F4F00904C58 /* GMThrottle2.swift */,
+				6B8D19DC1D53CC6F00904C58 /* GMLayer.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6B4935961D523975004C73B9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B4935971D523990004C73B9 /* RCViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B4935991D523A20004C73B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B4935A01D523B8C004C73B9 /* Robot.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B49359D1D523ADB004C73B9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6B49359E1D523ADB004C73B9 /* RCViewController.swift */,
+				6B8D19DE1D53CD9300904C58 /* LayerViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6BB4D8D01D43A9690057A5B0 /* TCP */ = {
+			isa = PBXGroup;
+			children = (
+				6BB4D8D11D43A97E0057A5B0 /* TcpClient.swift */,
+			);
+			path = TCP;
+			sourceTree = "<group>";
+		};
+		6BB7A7991D4397290080B057 = {
+			isa = PBXGroup;
+			children = (
+				6BB7A7A41D4397290080B057 /* rc-robot */,
+				6BB7A7A31D4397290080B057 /* Products */,
+				7830E2BCF1418BE217297260 /* Pods */,
+				FEF5F4529468AFF0887DF4A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6BB7A7A31D4397290080B057 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BB7A7A21D4397290080B057 /* rc-robot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BB7A7A41D4397290080B057 /* rc-robot */ = {
+			isa = PBXGroup;
+			children = (
+				6B49359D1D523ADB004C73B9 /* ViewControllers */,
+				6B4935931D51FAB2004C73B9 /* Views */,
+				6B4935961D523975004C73B9 /* ViewModel */,
+				6B4935991D523A20004C73B9 /* Model */,
+				6BB4D8D01D43A9690057A5B0 /* TCP */,
+				6BB7A7A51D4397290080B057 /* AppDelegate.swift */,
+				6BB7A7AC1D4397290080B057 /* Assets.xcassets */,
+				6B49359A1D523ACA004C73B9 /* Main.storyboard */,
+				6BB7A7AE1D4397290080B057 /* LaunchScreen.storyboard */,
+				6BB7A7B11D4397290080B057 /* Info.plist */,
+			);
+			path = "rc-robot";
+			sourceTree = "<group>";
+		};
+		7830E2BCF1418BE217297260 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05B3A3308FE1883C283702A6 /* Pods-rc-robot.debug.xcconfig */,
+				4F89D4444F15F2ED6BC5CBE4 /* Pods-rc-robot.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FEF5F4529468AFF0887DF4A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BB4D8D51D43CC3C0057A5B0 /* CFNetwork.framework */,
+				6BB4D8D31D43BDDE0057A5B0 /* Security.framework */,
+				B334F1573046748EBAC7E81F /* Pods_rc_robot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BB7A7A11D4397290080B057 /* rc-robot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BB7A7B41D4397290080B057 /* Build configuration list for PBXNativeTarget "rc-robot" */;
+			buildPhases = (
+				4F295A8235C1832607AAE5BA /* [CP] Check Pods Manifest.lock */,
+				6BB7A79E1D4397290080B057 /* Sources */,
+				6BB7A79F1D4397290080B057 /* Frameworks */,
+				6BB7A7A01D4397290080B057 /* Resources */,
+				BA35B4E2ABF7E66C396B6B1F /* [CP] Embed Pods Frameworks */,
+				F18EF6C07B7C8257594BE7E1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rc-robot";
+			productName = "rc-robot";
+			productReference = 6BB7A7A21D4397290080B057 /* rc-robot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BB7A79A1D4397290080B057 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = com.github.gmousset;
+				TargetAttributes = {
+					6BB7A7A11D4397290080B057 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = NMTEX5VD28;
+					};
+				};
+			};
+			buildConfigurationList = 6BB7A79D1D4397290080B057 /* Build configuration list for PBXProject "rc-robot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BB7A7991D4397290080B057;
+			productRefGroup = 6BB7A7A31D4397290080B057 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BB7A7A11D4397290080B057 /* rc-robot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BB7A7A01D4397290080B057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B49359C1D523ACA004C73B9 /* Main.storyboard in Resources */,
+				6BB7A7B01D4397290080B057 /* LaunchScreen.storyboard in Resources */,
+				6BB7A7AD1D4397290080B057 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F295A8235C1832607AAE5BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BA35B4E2ABF7E66C396B6B1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rc-robot/Pods-rc-robot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F18EF6C07B7C8257594BE7E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rc-robot/Pods-rc-robot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BB7A79E1D4397290080B057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B49359F1D523ADB004C73B9 /* RCViewController.swift in Sources */,
+				6B8D19DD1D53CC6F00904C58 /* GMLayer.swift in Sources */,
+				6B8D19DF1D53CD9300904C58 /* LayerViewController.swift in Sources */,
+				6B4935981D523990004C73B9 /* RCViewModel.swift in Sources */,
+				6B4935951D51FBD1004C73B9 /* GMThrottle.swift in Sources */,
+				6BB7A7A61D4397290080B057 /* AppDelegate.swift in Sources */,
+				6B4935A11D523B8C004C73B9 /* Robot.swift in Sources */,
+				6BB4D8D21D43A97E0057A5B0 /* TcpClient.swift in Sources */,
+				6B8D19DB1D537F4F00904C58 /* GMThrottle2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B49359A1D523ACA004C73B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B49359B1D523ACA004C73B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BB7A7AE1D4397290080B057 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BB7A7AF1D4397290080B057 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BB7A7B21D4397290080B057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BB7A7B31D4397290080B057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BB7A7B51D4397290080B057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05B3A3308FE1883C283702A6 /* Pods-rc-robot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "rc-robot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.gmousset.rc-robot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BB7A7B61D4397290080B057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F89D4444F15F2ED6BC5CBE4 /* Pods-rc-robot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "rc-robot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.gmousset.rc-robot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BB7A79D1D4397290080B057 /* Build configuration list for PBXProject "rc-robot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB7A7B21D4397290080B057 /* Debug */,
+				6BB7A7B31D4397290080B057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BB7A7B41D4397290080B057 /* Build configuration list for PBXNativeTarget "rc-robot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB7A7B51D4397290080B057 /* Debug */,
+				6BB7A7B61D4397290080B057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BB7A79A1D4397290080B057 /* Project object */;
+}
