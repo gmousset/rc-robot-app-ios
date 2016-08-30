@@ -12,14 +12,19 @@ public class Robot {
     
     public let leftSpeed = BehaviorSubject<Int>(value: 0)
     public let rightSpeed = BehaviorSubject<Int>(value: 0)
-    //private let speedsObservable: Observable<Int>
+    
+    private let client: TcpClient
     
     init() {
+        self.client = TcpClient()
+        self.client.connect()
+        
         let _ = Observable.combineLatest(
-            self.leftSpeed.distinctUntilChanged().debounce(0.5, scheduler: MainScheduler.instance),
-            self.leftSpeed.distinctUntilChanged().debounce(0.5, scheduler: MainScheduler.instance)) { (ls, rs) -> Void in
-                print("left:\(ls) right:\(rs)")
-        }
+            self.leftSpeed.distinctUntilChanged().debounce(0.25, scheduler: MainScheduler.instance),
+            self.rightSpeed.distinctUntilChanged().debounce(0.25, scheduler: MainScheduler.instance)) { ($0, $1) }
+            .bindNext({ (ls, rs) in
+                self.client.updateSpeed(ls, speedRight: rs)
+            })
     }
     
     public func setEnginesSpeed(leftSpeed: Int, rightSpeed: Int) {

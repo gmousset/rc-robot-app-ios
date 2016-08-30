@@ -5,4 +5,5 @@ target 'rc-robot' do
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'CocoaAsyncSocket'
+  pod 'FOGMJPEGImageView'
 end
