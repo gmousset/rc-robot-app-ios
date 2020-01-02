@@ -20,8 +20,8 @@ public class Robot {
         self.client.connect()
         
         let _ = Observable.combineLatest(
-            self.leftSpeed.distinctUntilChanged().debounce(0.25, scheduler: MainScheduler.instance),
-            self.rightSpeed.distinctUntilChanged().debounce(0.25, scheduler: MainScheduler.instance)) { ($0, $1) }
+            self.leftSpeed.distinctUntilChanged().debounce(0.05, scheduler: MainScheduler.instance),
+            self.rightSpeed.distinctUntilChanged().debounce(0.05, scheduler: MainScheduler.instance)) { ($0, $1) }
             .bindNext({ (ls, rs) in
                 self.client.updateSpeed(ls, speedRight: rs)
             })
